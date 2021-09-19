@@ -2,6 +2,7 @@ package interviews.arrays;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Scanner;
 
 public class firstDuplicate {
 
@@ -11,9 +12,26 @@ public class firstDuplicate {
     which the second occurrence has a smaller index than the second occurrence of the
     other number does. If there are no such elements, return -1.*/
 
-    public static void main(int[] args) {
+    public static void main(String[] args) {
 
-        int firstDuplicate = firstDuplicate(args);
+        Scanner sc = new Scanner(System.in);
+
+        //allow user input;
+        System.out.println("How many numbers do you want to enter?");
+        int num = sc.nextInt();
+
+        int array[] = new int[num];
+
+        System.out.println("Enter the " + num + " numbers now.");
+
+        for (int i = 0 ; i < array.length; i++ ) {
+            array[i] = sc.nextInt();
+        }
+
+        int firstDuplicate = firstDuplicate(array);
+
+        System.out.println("The first duplicate number for which the second occurrence " +
+                "has the minimal index is: " + firstDuplicate);
 
     }
 
