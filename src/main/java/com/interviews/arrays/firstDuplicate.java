@@ -1,6 +1,5 @@
-package interviews.arrays;
+package com.interviews.arrays;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 

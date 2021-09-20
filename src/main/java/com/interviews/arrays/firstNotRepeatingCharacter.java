@@ -1,7 +1,5 @@
-package interviews.arrays;
+package com.interviews.arrays;
 
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Scanner;
 import java.util.TreeMap;
 
