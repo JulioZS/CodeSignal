@@ -3,7 +3,7 @@ package com.interviews.arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class rotateImage {
+public class RotateImage {
 
     /* Note: Try to solve this task in-place (with O(1) additional memory),
     since this is what you'll be asked to do during an interview.
@@ -24,7 +24,7 @@ public class rotateImage {
 
         System.out.println("Enter array elements : ");
 
-        int twoD[][]=new int[rows][columns];
+        int[][] twoD = new int[rows][columns];
 
         for (int i = 0; i < rows; i++) {
 
