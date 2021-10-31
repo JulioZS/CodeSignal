@@ -3,7 +3,7 @@ package com.interviews.arrays;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class firstNotRepeatingCharacter {
+public class FirstNotRepeatingCharacter {
 
     /* Given a string s consisting of small English letters, find and return the first instance
     of a non-repeating character in it. If there is no such character, return '_'.*/
